@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    font-family: "Raleway", sans-serif;
+    line-height: 1.8;
+}
+
+h1,h2,h4,h5,h6{
+    font-weight: 900 !important;
+}
+
+h3{
+    font-weight: 800;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    transition: all 0.4s ease;
+    font-weight: 400 !important;
+}
+
+.active{
+    font-weight: 700 !important;
+}
+
+img{
+    width: 100%;
+}
+
+.navbar{
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.01);
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link{
+    background-image:-webkit-linear-gradient(#00e1ff, #1107fe);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+section{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    z-index: 2;
+    position: relative;
+}
+
+.bg-cover{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:linear-gradient(rgba(17, 7, 254,0.5),rgba(0, 225, 255,0.5));
+    z-index: -1;
+}
+
+.hero-section{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    padding: 14px 22px;
+    transition: all 0.4s ease;
+}
+
+.btn-main{
+    background:linear-gradient(to right,#00e1ff, #1107fe);
+    border-radius: 100px;
+    border: none;
+    font-weight: 600;
+    color: white;
+}
+
+.video-btn{
+    width: 60px;
+    height: 60px;
+    background:linear-gradient(to right,#00e1ff, #1107fe);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 100%;
+}
+
+.video-btn i{
+    font-size: 32px;
+}
+
+.btn:hover{
+    color: #fff;
+    transform: translateY(-5px);
+}
+
+.section-intro{
+    margin-bottom: 40px;
+}
+
+.section-intro .divider{
+    height: 4px;
+    width: 70px;
+    margin: auto;
+    margin-top: 16px auto;
+    background:linear-gradient(to right,#00e1ff, #1107fe);
+}
+
+.service .service-img{
+    position: relative;
+}
+
+.service .service-img .icon{
+    width: 90px;
+    height: 90px;
+    background-image:linear-gradient(to right,#00e1ff, #1107fe);
+    color: #fff;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.service .service-img .icon i{
+    font-size: 36px;
+}
+
+.service .service-img h5{
+    font-weight: 700 !important;
+}
+
+.para{
+    margin-top: 10px;
+    line-height: 120%;
+}
+
+.feature i{
+    background-image:-webkit-linear-gradient(#00e1ff, #1107fe);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 54px;
+
+}
+
+.review{
+    box-shadow: 0px 12px 12px rgba(0, 0, 0, 0.05);
+}
+
+.review .person{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    padding-bottom: 18px;
+}
+
+.review .person img{
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+}
+
+.review .stars{
+    color: orange;
+}
+
+form .form-control{
+    border-radius: 0%;
+    background-color: transparent;
+    color: #fff;
+    border-color: rgba(255, 255, 255,0.5);
+    
+}
+
+form input.form-control{
+    height: 54px;
+}
+
+form .form-control::placeholder{
+    color: #fff;
+}
+
+form .form-control:focus{
+    color: #fff;
+    background-image: transparent;
+    border-color: #fff;
+}
+
+footer{
+    background-image:linear-gradient(to right,#00e1ff, #1107fe);
+    color: #fff;
+}
+
+footer a{
+    color: #fff;
+    justify-content: center;
+}
+
+footer .bx {
+    font-size: 20px !important;
+    justify-content: space-between;
+}
